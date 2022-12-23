@@ -4,7 +4,6 @@ import { db } from "../firebase.config";
 import Navbar from "../components/Navbar";
 import nookies from "nookies";
 import { useRouter } from "next/router";
-
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 
 export default function UpdateProfile(props) {
